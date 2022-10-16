@@ -1,9 +1,9 @@
 package com.mycompany.gatos_app;
 public class Gatos {
-    String id;
-    String url;
-    String apikey = "live_A6OSDfjDRi7PAgHLs1Dxpuo0aO04wEHndblonQiscwbajPj4nuIEMeIidij21FAR";
-    String image;
+    private String id;
+    private String url;
+    private String apikey = "live_A6OSDfjDRi7PAgHLs1Dxpuo0aO04wEHndblonQiscwbajPj4nuIEMeIidij21FAR";
+    private String image;
 
     public String getId() {
         return id;

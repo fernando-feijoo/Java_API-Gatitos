@@ -22,7 +22,8 @@ public class Main {
                     GatosService.verGatitos();
                     break;
                 case 1:
-                    
+                    Gatos gato = new Gatos();
+                    GatosService.verFavorito(gato.getApikey());
                     break;
                 default:
                     break;
